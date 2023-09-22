@@ -4,7 +4,7 @@
     "data": {
         "dashboard_status": 0,
         "visual_status": {
-            "oa": "NO_ACCOUNT",
+            "oa": "ACCOUNT_UPDATING",
             "customer": [],
             "port": "PRA",
             "options": {
