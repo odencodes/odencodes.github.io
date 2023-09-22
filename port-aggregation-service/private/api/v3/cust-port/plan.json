@@ -4,7 +4,7 @@
     "data": {
         "dashboard_status": 0,
         "visual_status": {
-            "oa": "NONE",
+            "oa": "NO_ACCOUNT",
             "customer": [],
             "port": "PRA",
             "options": {
