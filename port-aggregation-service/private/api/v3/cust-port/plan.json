@@ -4,8 +4,8 @@
     "data": {
         "dashboard_status": 0,
         "visual_status": {
-            "oa": "ACCOUNT_UPDATING",
-            "customer": [],
+            "oa": "NONE",
+            "customer": ["ID_CARD_EXPIRED"],
             "port": "PRA",
             "options": {
                 "maintenance_message": "",
