@@ -1,0 +1,1337 @@
+{
+    "status": true,
+    "service_code": "64",
+    "data": {
+        "dashboard_status": 0,
+        "visual_status": {
+            "oa": "NONE",
+            "customer": [],
+            "port": "PRA",
+            "options": {
+                "maintenance_message": "",
+                "expiry_dates": {
+                    "kyc": "2024-09-03T00:00:00+07:00",
+                    "suit": "2024-11-28T00:00:00+07:00",
+                    "id_card": "2027-03-02T00:00:00+07:00"
+                },
+                "bank": {
+                    "bank_name": "KBANK",
+                    "bank_account_no_display": "******3269",
+                    "bank_image_url": "https://scontent-qa.finnomena.com/port-web/images/bank-account-logo/kbank.png"
+                },
+                "reject_reason": ""
+            }
+        },
+        "customer": {
+            "agent": "FINNOMENA",
+            "ats_status": 1,
+            "risk_level": 1,
+            "portfolio_date": "2023-09-18",
+            "eod_completed": false,
+            "kyc_date": "2021-09-03",
+            "can_create_omn": false,
+            "can_create_seg": false,
+            "asset_summary": {
+                "aum": 5576927.03,
+                "cost": 2376569.73,
+                "total_pl": 3200988.53,
+                "unrealized_pl": 3200357.3,
+                "unrealized_percentage": 134.66,
+                "realized_pl": 631.23,
+                "realized_trading_pl": 500.57,
+                "dividend": 130.66,
+                "tmb_liquidation": 0
+            },
+            "identity": {
+                "status": true
+            },
+            "oa_status": {
+                "first_omn": 1,
+                "first_seg": 1
+            }
+        },
+        "accounts": [
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191006563",
+                "plan_id": 554743,
+                "plan_slot": 10,
+                "plan_name": "DIY - 1",
+                "plan_type": "space",
+                "plan_type_display": "DIY",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "space",
+                "risk_level": 999,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-06-30T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "diy",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 820636.99,
+                    "cost": 20000,
+                    "total_pl": 800636.99,
+                    "unrealized_pl": 800636.99,
+                    "unrealized_percentage": 4003.18,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19722,
+                    "asset_id": 554743,
+                    "asset_slot": 10,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 1,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191001508",
+                "plan_id": 571201,
+                "plan_slot": 6,
+                "plan_name": "ใช้ยามเกษียณ-cron",
+                "plan_type": "goal-based",
+                "plan_type_display": "Goal",
+                "plan_type_badge_url": null,
+                "goal_money": 5500000,
+                "goal_type": "retirement",
+                "risk_level": 7,
+                "risk_level_text": "เล่นของสูง",
+                "below_minimum": 0,
+                "create_date": "2022-09-01T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "goal",
+                "can_redraft": true,
+                "risk_level_display": 7,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 100705.69,
+                    "cost": 98224.96,
+                    "total_pl": 1259.57,
+                    "unrealized_pl": 2480.73,
+                    "unrealized_percentage": 2.53,
+                    "realized_pl": -1221.16,
+                    "realized_trading_pl": -1333.44,
+                    "dividend": 112.28,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19718,
+                    "asset_id": 571201,
+                    "asset_slot": 6,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 2,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888202001187",
+                "plan_id": 36447,
+                "plan_slot": 1,
+                "plan_name": "tax-saving-fund",
+                "plan_type": "tax-saving-fund",
+                "plan_type_display": "Tax",
+                "plan_type_badge_url": null,
+                "goal_money": 0,
+                "goal_type": "tax-saving-fund",
+                "risk_level": 701,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2020-09-03T00:00:00Z",
+                "account_type": "segregate",
+                "slug_name": "ssf-rmf-general",
+                "can_redraft": false,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 39670.97,
+                    "cost": 38000,
+                    "total_pl": 1670.97,
+                    "unrealized_pl": 1670.97,
+                    "unrealized_percentage": 4.4,
+                    "realized_pl": null,
+                    "realized_trading_pl": null,
+                    "dividend": null,
+                    "tmb_liquidation": null
+                },
+                "asset_sorting": {
+                    "id": 19734,
+                    "asset_id": 36447,
+                    "asset_slot": 1,
+                    "asset_type": "segregate",
+                    "is_hide": false,
+                    "order_no": 3,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191000478",
+                "plan_id": 38373,
+                "plan_slot": 5,
+                "plan_name": "Global Optimized Return by FINNOMENA x Franklin Templeton",
+                "plan_type": "gor",
+                "plan_type_display": "GOR",
+                "plan_type_badge_url": "https://scontent-qa.finnomena.com/port-web/images/dashboard/ic-franklin%402x.png",
+                "goal_money": 0,
+                "goal_type": "gor",
+                "risk_level": 300001,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2021-04-07T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "gor",
+                "can_redraft": false,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": 43.89,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": 43.89,
+                    "realized_trading_pl": 43.89,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19717,
+                    "asset_id": 38373,
+                    "asset_slot": 5,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 4,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888181000039",
+                "plan_id": 607280,
+                "plan_slot": 1,
+                "plan_name": "First Millionx",
+                "plan_type": "1stm",
+                "plan_type_display": "1stM",
+                "plan_type_badge_url": null,
+                "goal_money": 1000000,
+                "goal_type": "1stm",
+                "risk_level": 201,
+                "risk_level_text": "ทางสายกลาง",
+                "below_minimum": 0,
+                "create_date": "2023-02-09T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "1stm",
+                "can_redraft": true,
+                "risk_level_display": 4,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": 189.86,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": 189.86,
+                    "realized_trading_pl": 189.86,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19713,
+                    "asset_id": 607280,
+                    "asset_slot": 1,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 5,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191000278",
+                "plan_id": 46860,
+                "plan_slot": 2,
+                "plan_name": "Goal1-1 dca match",
+                "plan_type": "goal-based",
+                "plan_type_display": "Goal",
+                "plan_type_badge_url": null,
+                "goal_money": 5500000,
+                "goal_type": "retire",
+                "risk_level": 1,
+                "risk_level_text": "ช้าแต่ชัวร์",
+                "below_minimum": 0,
+                "create_date": "2022-02-02T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "goal",
+                "can_redraft": true,
+                "risk_level_display": 1,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": true,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 820636.99,
+                    "cost": 20000,
+                    "total_pl": 802643.2,
+                    "unrealized_pl": 800636.99,
+                    "unrealized_percentage": 4003.18,
+                    "realized_pl": 2006.21,
+                    "realized_trading_pl": 2006.21,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "optional-adjustment",
+                    "on_process": true
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19714,
+                    "asset_id": 46860,
+                    "asset_slot": 2,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 6,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191000294",
+                "plan_id": 594854,
+                "plan_slot": 3,
+                "plan_name": "Shoppingbag",
+                "plan_type": "goal-based",
+                "plan_type_display": "Goal",
+                "plan_type_badge_url": null,
+                "goal_money": 0,
+                "goal_type": "shoppingbag",
+                "risk_level": 5,
+                "risk_level_text": "พี่ไม่ได้มาเล่นๆ",
+                "below_minimum": 0,
+                "create_date": "2022-12-09T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "goal",
+                "can_redraft": true,
+                "risk_level_display": 5,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 45156.37,
+                    "cost": 56510,
+                    "total_pl": -11007.9,
+                    "unrealized_pl": -11353.63,
+                    "unrealized_percentage": -20.09,
+                    "realized_pl": 345.73,
+                    "realized_trading_pl": 345.73,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "need-adjustment",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19715,
+                    "asset_id": 594854,
+                    "asset_slot": 3,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 7,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191000445",
+                "plan_id": 46858,
+                "plan_slot": 4,
+                "plan_name": "TISCO not PRA not DCA",
+                "plan_type": "fhport-tisco-oef",
+                "plan_type_display": "Fund House Port",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "fhport-tisco-oef",
+                "risk_level": 200005,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-02-02T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "fhport-tisco",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 1001737.75,
+                    "cost": 1000000,
+                    "total_pl": 1742.9,
+                    "unrealized_pl": 1737.75,
+                    "unrealized_percentage": 0.17,
+                    "realized_pl": 5.15,
+                    "realized_trading_pl": 5.15,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19716,
+                    "asset_id": 46858,
+                    "asset_slot": 4,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 8,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191001971",
+                "plan_id": 566573,
+                "plan_slot": 7,
+                "plan_name": "ซื้อบ้าน",
+                "plan_type": "goal-based",
+                "plan_type_display": "Goal",
+                "plan_type_badge_url": null,
+                "goal_money": 3000000,
+                "goal_type": "house",
+                "risk_level": 5,
+                "risk_level_text": "พี่ไม่ได้มาเล่นๆ",
+                "below_minimum": 0,
+                "create_date": "2022-08-03T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "goal",
+                "can_redraft": true,
+                "risk_level_display": 5,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 50474.23,
+                    "cost": 50000,
+                    "total_pl": 474.23,
+                    "unrealized_pl": 474.23,
+                    "unrealized_percentage": 0.95,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "need-adjustment",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19719,
+                    "asset_id": 566573,
+                    "asset_slot": 7,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 9,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191001989",
+                "plan_id": 48613,
+                "plan_slot": 8,
+                "plan_name": "Global Income Focus",
+                "plan_type": "gif",
+                "plan_type_display": "GIF",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "gif",
+                "risk_level": 301,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-03-04T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "gif",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 40,
+                    "cost": 40,
+                    "total_pl": 0,
+                    "unrealized_pl": 0,
+                    "unrealized_percentage": 0,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19720,
+                    "asset_id": 48613,
+                    "asset_slot": 8,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 10,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191001990",
+                "plan_id": 46872,
+                "plan_slot": 9,
+                "plan_name": "GAR PRA not have Order",
+                "plan_type": "gar",
+                "plan_type_display": "GAR",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "gar",
+                "risk_level": 101,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-02-03T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "gar",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 49856.31,
+                    "cost": 48794.77,
+                    "total_pl": 323.09,
+                    "unrealized_pl": 1061.54,
+                    "unrealized_percentage": 2.18,
+                    "realized_pl": -738.45,
+                    "realized_trading_pl": -756.83,
+                    "dividend": 18.38,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "need-adjustment",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19721,
+                    "asset_id": 46872,
+                    "asset_slot": 9,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 11,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888191006765",
+                "plan_id": 608014,
+                "plan_slot": 11,
+                "plan_name": "ซื้อบ้าน",
+                "plan_type": "goal-based",
+                "plan_type_display": "Goal",
+                "plan_type_badge_url": null,
+                "goal_money": 3000000,
+                "goal_type": "house",
+                "risk_level": 5,
+                "risk_level_text": "พี่ไม่ได้มาเล่นๆ",
+                "below_minimum": 0,
+                "create_date": "2023-02-13T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "goal",
+                "can_redraft": true,
+                "risk_level_display": 5,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": true,
+                "order_on_process": true,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 0,
+                    "cost": 0,
+                    "total_pl": 0,
+                    "unrealized_pl": 0,
+                    "unrealized_percentage": 0,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": true
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19723,
+                    "asset_id": 608014,
+                    "asset_slot": 11,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 12,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221000729",
+                "plan_id": 53910,
+                "plan_slot": 12,
+                "plan_name": "Theme SET Immunity",
+                "plan_type": "theme-immunity-set",
+                "plan_type_display": "Thematic",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "theme-immunity-set",
+                "risk_level": 10001,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-04-28T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "set-immunity",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 820636.99,
+                    "cost": 20000,
+                    "total_pl": 800636.99,
+                    "unrealized_pl": 800636.99,
+                    "unrealized_percentage": 4003.18,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "need-adjustment",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19724,
+                    "asset_id": 53910,
+                    "asset_slot": 12,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 13,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221000730",
+                "plan_id": 46876,
+                "plan_slot": 13,
+                "plan_name": "Goal DCA mismatch",
+                "plan_type": "goal-based",
+                "plan_type_display": "Goal",
+                "plan_type_badge_url": null,
+                "goal_money": 5500000,
+                "goal_type": "retire",
+                "risk_level": 1,
+                "risk_level_text": "ช้าแต่ชัวร์",
+                "below_minimum": 0,
+                "create_date": "2022-02-03T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "goal",
+                "can_redraft": true,
+                "risk_level_display": 1,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 820636.99,
+                    "cost": 20000,
+                    "total_pl": 800636.99,
+                    "unrealized_pl": 800636.99,
+                    "unrealized_percentage": 4003.18,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "optional-adjustment",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19725,
+                    "asset_id": 46876,
+                    "asset_slot": 13,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 14,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221000731",
+                "plan_id": 46877,
+                "plan_slot": 14,
+                "plan_name": "TISCO Have DCA",
+                "plan_type": "fhport-tisco-oef",
+                "plan_type_display": "Fund House Port",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "fhport-tisco-oef",
+                "risk_level": 200005,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-02-03T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "fhport-tisco",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 1001737.75,
+                    "cost": 1000000,
+                    "total_pl": 1737.75,
+                    "unrealized_pl": 1737.75,
+                    "unrealized_percentage": 0.17,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19726,
+                    "asset_id": 46877,
+                    "asset_slot": 14,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 15,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003601",
+                "plan_id": 629550,
+                "plan_slot": 15,
+                "plan_name": "SCB GROW TOGETHER",
+                "plan_type": "fhport-scbam-gt",
+                "plan_type_display": "Fund House Port",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "fhport-scbam-gt",
+                "risk_level": 200006,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2023-04-24T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "fhport-scbam-gt",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": null,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": null,
+                    "realized_trading_pl": null,
+                    "dividend": null,
+                    "tmb_liquidation": null
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19727,
+                    "asset_id": 629550,
+                    "asset_slot": 15,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 16,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003608",
+                "plan_id": 633116,
+                "plan_slot": 22,
+                "plan_name": "DIY - 999",
+                "plan_type": "space",
+                "plan_type_display": "DIY",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "space",
+                "risk_level": 999,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2023-05-17T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "diy",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": null,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": null,
+                    "realized_trading_pl": null,
+                    "dividend": null,
+                    "tmb_liquidation": null
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 134100,
+                    "asset_id": 633116,
+                    "asset_slot": 22,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 17,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "NONE",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003602",
+                "plan_id": 633877,
+                "plan_slot": 16,
+                "plan_name": "DIY - 2",
+                "plan_type": "space",
+                "plan_type_display": "DIY",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "space",
+                "risk_level": 999,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2023-05-22T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "diy",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": 5000,
+                    "cost": 5000,
+                    "total_pl": 0,
+                    "unrealized_pl": 0,
+                    "unrealized_percentage": 0,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19728,
+                    "asset_id": 633877,
+                    "asset_slot": 16,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 18,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003603",
+                "plan_id": 554744,
+                "plan_slot": 17,
+                "plan_name": "DIY - 3",
+                "plan_type": "space",
+                "plan_type_display": "DIY",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "space",
+                "risk_level": 999,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-06-30T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "diy",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": null,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": null,
+                    "realized_trading_pl": null,
+                    "dividend": null,
+                    "tmb_liquidation": null
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19729,
+                    "asset_id": 554744,
+                    "asset_slot": 17,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 19,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003604",
+                "plan_id": 554745,
+                "plan_slot": 18,
+                "plan_name": "DIY - 4",
+                "plan_type": "space",
+                "plan_type_display": "DIY",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "space",
+                "risk_level": 999,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-06-30T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "diy",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": null,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": null,
+                    "realized_trading_pl": null,
+                    "dividend": null,
+                    "tmb_liquidation": null
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19730,
+                    "asset_id": 554745,
+                    "asset_slot": 18,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 20,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003605",
+                "plan_id": 558110,
+                "plan_slot": 19,
+                "plan_name": "DIY - 5",
+                "plan_type": "space",
+                "plan_type_display": "DIY",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "space",
+                "risk_level": 999,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-07-08T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "diy",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": null,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": null,
+                    "realized_trading_pl": null,
+                    "dividend": null,
+                    "tmb_liquidation": null
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19731,
+                    "asset_id": 558110,
+                    "asset_slot": 19,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 21,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003606",
+                "plan_id": 564034,
+                "plan_slot": 20,
+                "plan_name": "DIY - 6",
+                "plan_type": "space",
+                "plan_type_display": "DIY",
+                "plan_type_badge_url": null,
+                "goal_money": null,
+                "goal_type": "space",
+                "risk_level": 999,
+                "risk_level_text": null,
+                "below_minimum": 0,
+                "create_date": "2022-07-21T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "diy",
+                "can_redraft": true,
+                "risk_level_display": null,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": null,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": null,
+                    "realized_trading_pl": null,
+                    "dividend": null,
+                    "tmb_liquidation": null
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "none"
+                },
+                "asset_sorting": {
+                    "id": 19732,
+                    "asset_id": 564034,
+                    "asset_slot": 20,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 22,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            },
+            {
+                "visual_status": {
+                    "oa": "ACCOUNT_READY",
+                    "customer": [],
+                    "port": "NONE"
+                },
+                "agent_account_id": "888221003607",
+                "plan_id": 564035,
+                "plan_slot": 21,
+                "plan_name": "First Million X",
+                "plan_type": "1stm",
+                "plan_type_display": "1stM",
+                "plan_type_badge_url": null,
+                "goal_money": 1000000,
+                "goal_type": "1stm",
+                "risk_level": 201,
+                "risk_level_text": "ทางสายกลาง",
+                "below_minimum": 0,
+                "create_date": "2022-07-21T00:00:00Z",
+                "account_type": "omnibus",
+                "slug_name": "1stm",
+                "can_redraft": true,
+                "risk_level_display": 4,
+                "status": 1,
+                "ats_status": 1,
+                "is_sold_out": false,
+                "order_on_process": false,
+                "can_trade": true,
+                "asset_summary": {
+                    "aum": null,
+                    "cost": null,
+                    "total_pl": 0,
+                    "unrealized_pl": null,
+                    "unrealized_percentage": null,
+                    "realized_pl": 0,
+                    "realized_trading_pl": 0,
+                    "dividend": 0,
+                    "tmb_liquidation": 0
+                },
+                "pra": {
+                    "status": "none",
+                    "on_process": false
+                },
+                "dca": {
+                    "status": "need-set"
+                },
+                "asset_sorting": {
+                    "id": 19733,
+                    "asset_id": 564035,
+                    "asset_slot": 21,
+                    "asset_type": "omnibus",
+                    "is_hide": false,
+                    "order_no": 23,
+                    "updated_at": "2023-05-29T03:53:45Z"
+                }
+            }
+        ]
+    }
+}
